@@ -1,7 +1,7 @@
 var beautify = require('js-beautify').js_beautify;
 
 var fs = require('fs');
-var HSON = require("hson");
+var HSON = require('hson');
 
 var theFile = fs.readFileSync('custom.hson').toString();
 
